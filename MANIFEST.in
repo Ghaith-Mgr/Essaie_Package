@@ -1,2 +1,8 @@
 include *.md
 recursive-include sm_lib *.jpg
+
+
+include *.txt *.rst
+recursive-include dir1 *.txt *.rst
+recursive-include dir2 *.png *.jpg *.gif
+recursive-include dir2 *.css *.js *.coffee
